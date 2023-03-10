@@ -1,0 +1,17 @@
+C:\Users\cleidson.silva\Desktop\RabbitMq\Message\Work\bin\Debug\net6.0\Work.exe
+C:\Users\cleidson.silva\Desktop\RabbitMq\Message\Work\bin\Debug\net6.0\Work.deps.json
+C:\Users\cleidson.silva\Desktop\RabbitMq\Message\Work\bin\Debug\net6.0\Work.runtimeconfig.json
+C:\Users\cleidson.silva\Desktop\RabbitMq\Message\Work\bin\Debug\net6.0\Work.dll
+C:\Users\cleidson.silva\Desktop\RabbitMq\Message\Work\bin\Debug\net6.0\Work.pdb
+C:\Users\cleidson.silva\Desktop\RabbitMq\Message\Work\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\cleidson.silva\Desktop\RabbitMq\Message\Work\obj\Debug\net6.0\Work.csproj.AssemblyReference.cache
+C:\Users\cleidson.silva\Desktop\RabbitMq\Message\Work\obj\Debug\net6.0\Work.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cleidson.silva\Desktop\RabbitMq\Message\Work\obj\Debug\net6.0\Work.AssemblyInfoInputs.cache
+C:\Users\cleidson.silva\Desktop\RabbitMq\Message\Work\obj\Debug\net6.0\Work.AssemblyInfo.cs
+C:\Users\cleidson.silva\Desktop\RabbitMq\Message\Work\obj\Debug\net6.0\Work.csproj.CoreCompileInputs.cache
+C:\Users\cleidson.silva\Desktop\RabbitMq\Message\Work\obj\Debug\net6.0\Work.csproj.CopyComplete
+C:\Users\cleidson.silva\Desktop\RabbitMq\Message\Work\obj\Debug\net6.0\Work.dll
+C:\Users\cleidson.silva\Desktop\RabbitMq\Message\Work\obj\Debug\net6.0\refint\Work.dll
+C:\Users\cleidson.silva\Desktop\RabbitMq\Message\Work\obj\Debug\net6.0\Work.pdb
+C:\Users\cleidson.silva\Desktop\RabbitMq\Message\Work\obj\Debug\net6.0\Work.genruntimeconfig.cache
+C:\Users\cleidson.silva\Desktop\RabbitMq\Message\Work\obj\Debug\net6.0\ref\Work.dll

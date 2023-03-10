@@ -2,7 +2,6 @@
 using RabbitMQ.Client;
 
 var factory = new ConnectionFactory { HostName = "localhost" };
-
 using var connection = factory.CreateConnection();
 using var channel = connection.CreateModel();
 
@@ -12,7 +11,7 @@ channel.QueueDeclare(queue: "hello",
                      autoDelete: false,
                      arguments: null);
 
-const string message = "SELECT * FROM TESTE";
+var message = GetMessage(args);
 var body = Encoding.UTF8.GetBytes(message);
 
 channel.BasicPublish(exchange: string.Empty,
@@ -23,3 +22,8 @@ Console.WriteLine($" [x] Sent {message}");
 
 Console.WriteLine(" Press [enter] to exit.");
 Console.ReadLine();
+
+static string GetMessage(string[] args)
+{
+    return ((args.Length > 0) ? string.Join(" ", args) : "Hello World!");
+}
