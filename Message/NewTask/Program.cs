@@ -18,6 +18,8 @@ channel.BasicPublish(exchange: string.Empty,
                      routingKey: "hello",
                      basicProperties: null,
                      body: body);
+
+
 Console.WriteLine($" [x] Sent {message}");
 
 Console.WriteLine(" Press [enter] to exit.");

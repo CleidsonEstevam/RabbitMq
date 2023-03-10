@@ -1,8 +1,12 @@
 ﻿using System.Text;
 using RabbitMQ.Client;
 
-var factory = new ConnectionFactory { HostName = "localhost" };
+/*********************************************/
+// Mensagem gerada para apenas um Consumidor //
+// enviada de forma direta.                  //
+/********************************************/
 
+var factory = new ConnectionFactory { HostName = "localhost" };
 using var connection = factory.CreateConnection();
 using var channel = connection.CreateModel();
 
@@ -12,13 +16,14 @@ channel.QueueDeclare(queue: "hello",
                      autoDelete: false,
                      arguments: null);
 
-const string message = "SELECT * FROM TESTE";
+const string message = "SELECT * FROM TESTE;";
 var body = Encoding.UTF8.GetBytes(message);
 
 channel.BasicPublish(exchange: string.Empty,
                      routingKey: "hello",
                      basicProperties: null,
                      body: body);
+
 Console.WriteLine($" [x] Sent {message}");
 
 Console.WriteLine(" Press [enter] to exit.");
