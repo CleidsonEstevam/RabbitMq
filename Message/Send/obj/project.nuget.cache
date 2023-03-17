@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YpTLKVL+eWiEssknmN0NN+/zkMFEwYps3QgiXe0gktQvpNYIqpgOkkWIv0GEmhXLkunaJB9NSkfBmQ3Ch4pQuQ==",
+  "dgSpecHash": "cvDo2bsHcqw2BHdRovbFRqtiI9a5rtI7xaGf18ObKblPIAYH3T7eEAxAs2YU0nyx07MtjPjXC6KMPaQ5nydhIA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cleidson.silva\\Desktop\\RabbitMq\\Message\\Send\\Send.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\cleidson.silva\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
-    "C:\\Users\\cleidson.silva\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
-    "C:\\Users\\cleidson.silva\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\cleidson.silva\\Desktop\\RabbitMQ\\Message\\Send\\Send.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

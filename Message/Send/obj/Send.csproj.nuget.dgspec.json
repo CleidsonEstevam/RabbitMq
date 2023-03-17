@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cleidson.silva\\Desktop\\RabbitMq\\Message\\Send\\Send.csproj": {}
+    "C:\\Users\\cleidson.silva\\Desktop\\RabbitMQ\\Message\\Send\\Send.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cleidson.silva\\Desktop\\RabbitMq\\Message\\Send\\Send.csproj": {
+    "C:\\Users\\cleidson.silva\\Desktop\\RabbitMQ\\Message\\Send\\Send.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cleidson.silva\\Desktop\\RabbitMq\\Message\\Send\\Send.csproj",
+        "projectUniqueName": "C:\\Users\\cleidson.silva\\Desktop\\RabbitMQ\\Message\\Send\\Send.csproj",
         "projectName": "Send",
-        "projectPath": "C:\\Users\\cleidson.silva\\Desktop\\RabbitMq\\Message\\Send\\Send.csproj",
+        "projectPath": "C:\\Users\\cleidson.silva\\Desktop\\RabbitMQ\\Message\\Send\\Send.csproj",
         "packagesPath": "C:\\Users\\cleidson.silva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cleidson.silva\\Desktop\\RabbitMq\\Message\\Send\\obj\\",
+        "outputPath": "C:\\Users\\cleidson.silva\\Desktop\\RabbitMQ\\Message\\Send\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,29 +44,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "RabbitMQ.Client": {
-              "target": "Package",
-              "version": "[6.4.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
         }
       }
     }
